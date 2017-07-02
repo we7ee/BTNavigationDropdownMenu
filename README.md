@@ -16,22 +16,12 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 use_frameworks!
-pod 'BTNavigationDropdownMenu'
+pod 'BTNavigationDropdownMenu', :git => 'https://github.com/PhamBaTho/BTNavigationDropdownMenu.git', :branch => 'swift-2.2'
 ```
 Go ahead and **import** BTNavigationDropdownMenu into your own Swift files 
 ```swift
 import BTNavigationDropdownMenu
 ```
-Note: This library mainly supports for **Xcode 7, Swift 2.2** and embedded frameworks.
-
-⚡⚡️⚡ **Swift 3.0 supporting** ⚡⚡⚡
-
-If you would like to use Swift 3.0, you can use these lines of code in your Podfile:
-
-```ruby
-pod 'BTNavigationDropdownMenu', :git => 'https://github.com/PhamBaTho/BTNavigationDropdownMenu.git', :branch => 'swift-3.0'
-```
-
 ## Usage:
 ### Instantiating
 Start by creating an Array that contains strings as **elements of dropdown list**:

@@ -22,7 +22,6 @@ Go ahead and **import** BTNavigationDropdownMenu into your own Swift files
 ```swift
 import BTNavigationDropdownMenu
 ```
-Note: This library mainly supports for **Xcode 7, Swift 3.0** and embedded frameworks.
 
 ## Usage:
 ### Instantiating
